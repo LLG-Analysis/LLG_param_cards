@@ -1,0 +1,97 @@
+             SUSPECT2.4 OUTPUT: MSUGRA CASE
+             ------------------------------
+
+Input values:
+-------------
+  m_0        m_1/2      A_0        tan(beta)  sign(mu)
+  100.0      250.0     -100.0      10.00      1.000    
+
+  M_top      mb_mb      M_tau      1/alpha    sw**2(M_Z)   alpha_S
+  172.5      4.250      1.777      127.93     0.2221       0.1172    
+
+  M_GUT      M_EWSB     E_LOW       (input or ouput scales)
+ 0.2426E+17  465.8      91.19    
+
+Fermion masses and gauge couplings: Q=HIGH/EWSB
+---------------------------------------------
+  M_top      M_bot      M_tau        g1         g2         g3
+  68.51     0.9600      1.299     0.7209     0.7209     0.7075    
+  150.8      2.455      1.780     0.4660     0.6464      1.096    
+
+mu parameter and soft terms at M_EWSB:
+--------------------------------------
+  mu         B          M^2_Hu       M^2_Hd
+  352.2      46.79    -0.1250E+06   0.3232E+05
+
+  M_1        M_2        M_3
+  101.5      191.6      586.3    
+
+  m_tauR     m_tauL     m_bR       m_tR       m_QL
+  133.5      194.6      522.1      423.4      497.6    
+
+  m_eR       m_eL       m_dR       m_uR       m_qL
+  136.0      195.4      525.4      527.5      545.6    
+
+  Atau       Abottom    Atop       Al         Ad         Au
+ -251.5     -796.6     -506.1     -253.3     -859.0     -683.2    
+
+Mass matrices and mixing angles:
+--------------------------------
+  tan(beta)  alpha_(h,H)
+  9.750    -0.1142    
+
+  thet_tau    thet_b           thet_t
+  1.282     0.3761     0.9849    
+
+  Z(i,j)
+  0.9853     -0.5642E-01  0.1511     -0.5561E-01
+  0.1061      0.9397     -0.2809      0.1640    
+  0.6128E-01 -0.9073E-01 -0.6952     -0.7105    
+  0.1186     -0.3250     -0.6442      0.6821    
+
+  U(i,j)                  V(i,j)
+ -0.9114      0.4115     -0.9704      0.2414    
+  0.4115      0.9114      0.2414      0.9704    
+
+Final Higgs and SUSY particle masses: 
+------------------------------------- 
+  h           H           A           H+
+  109.93      394.94      394.53      402.95    
+
+  chi+_1     chi+_2     chi0_1     chi0_2     chi0_3     chi0_4
+  179.7      378.0      97.20      180.3     -358.4      377.8    
+
+  gluino
+  606.0    
+
+  stop_1     stop_2     sup_1      sup_2
+  399.6      586.4      562.1      545.7    
+
+  sbot_1     sbot_2     sdown_1    sdown_2
+  516.8      546.1      567.6      545.5    
+
+  stau_1     stau_2     snutau     selec_1    selec_2    snuelec
+  133.3      204.8      184.0      200.8      142.8      184.9    
+
+Low-energy/LEP precision parameter values:
+ Delta_rho   g_mu -2   Br(b->s gamma)
+ 0.8185E-04 0.2780E-08 0.2589E-03
+Fine-tuning values for info: fine-tuned if >>1
+dmZ^2/mZ^2(mu^2) dmZ^2/mZ^2(B.mu) dmt/mt(mu)     dmt/mt(B.mu)
+  31.11     0.7877      15.57     0.3838    
+
+Warning/Error Flags: errmess(1)-(10):
+-------------------------------------
+   0. 0. 0. 0. 0. 0. 0. 0. 0. 0.
+---------------------------------
+errmess(i)= 0: Everything is fine.
+errmess(1)=-1: tachyon 3rd gen. sfermion from RGE
+errmess(2)=-1: tachyon 1,2 gen. sfermion from RGE
+errmess(3)=-1: tachyon A    (maybe temporary: see final mass) 
+errmess(4)=-1: tachyon 3rd gen. sfermion from mixing
+errmess(5)=-1: mu unstable after many iter
+errmess(6)=-1: non-convergent mu from EWSB 
+errmess(7)=-1: EWSB maybe inconsistent        (!but RG-improved only check)
+errmess(8)=-1: V_eff maybe UFB or CCB         (!but RG-improved only check)
+errmess(9)=-1: Higgs boson masses are NaN 
+errmess(10)=-1: RGE problems (non-pert and/or Landau poles)
